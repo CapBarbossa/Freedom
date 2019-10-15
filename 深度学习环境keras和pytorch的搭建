@@ -1,0 +1,13 @@
+tensorflow
+keras
+git+https://www.github.com/keras-team/keras-contrib.git
+pillow
+scikit-image
+torch>=0.4.1
+torchvision>=0.2.1
+dominate>=2.3.1
+visdom>=0.1.8.
+
+
+将上述内容写入名称为requirements.txt的文件中，然后终端执行：
+pip3 install -r requirements.txt
